@@ -1,0 +1,427 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input,
+  select,
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+  }
+  .logo {
+    color: white;
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust the size as needed */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .find-mentor-btn {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auth-buttons button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .auth-buttons button:hover,
+  .find-mentor-btn:hover {
+    background-color: #555;
+  }
+  .mentor-landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: #f4f4f4;
+    background-image: url(../public/images/mentor.jpg);
+  }
+  
+  .welcome-text {
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .get-started-btn {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #555;
+  }
+
+  .mentor-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .mentor-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .mentor-info {
+    color: #333;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .mentee-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .pending-requests {
+    margin-top: 20px;
+  }
+  
+  .request-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .accepted-btn {
+    background-color: #4CAF50;
+    cursor: not-allowed;
+  }
+  /* Add these styles in your CSS file or style tag */
+
+.mentor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mentor-card {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.details-section {
+  margin-top: 10px;
+}
+
+.button-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.register , .login{
+  background-image: url(../public/images/mentor.jpg);
+}
+.login{
+  height: 100vh;
+
+}
+.loginType{
+  display: flex;
+  width: 100%;
+  justify-content:space-around;
+  list-style: none;
+  
+}
+.loginType li a{
+  text-decoration: none;
+}
+.username{
+  color: white;
+}
+.mentee-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.textarea-input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.recommend-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recommend-button:hover {
+  background-color: #45a049;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mentor-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-section img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  background-image: url(../public/images/user.png);
+}
+
+.details-section {
+  flex: 1;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #007bff;
+}
+
+p {
+  color: #666;
+}
+
+.mentorship-buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
